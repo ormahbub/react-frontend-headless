@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+
+@font-face {
+  font-family: "Segoe UI Local";
+  src: url("./assets/fonts/segoeuithibd.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+body {
+  background-color: #080c0e;
+}
+.container {
+  width: 1290px;
+  margin: 0 auto;
+  padding: 0;
+}

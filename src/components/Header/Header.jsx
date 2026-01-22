@@ -1,3 +1,4 @@
+import "./Header.css";
 import logo from "../../assets/logo.png";
 
 export default function Header() {
@@ -27,7 +28,11 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <button className="hamburger">=</button>
+          <button className="hamburger">
+            <span className="line-1"></span>
+            <span className="line-2"></span>
+            <span className="line-3"></span>
+          </button>
         </div>
       </div>
     </header>

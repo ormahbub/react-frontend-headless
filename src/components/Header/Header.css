@@ -1,0 +1,71 @@
+header .container {
+  background-color: #121b1f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 25px;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+header .logo img {
+  width: 220px;
+  cursor: pointer;
+}
+header .navbar {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 40px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: end;
+}
+header nav ul li a {
+  color: #b8bbbc;
+  font-size: 17px;
+  line-height: 22px;
+  text-decoration: none;
+  padding: 10px 20px 12px 20px;
+  border-radius: 50px;
+  background-color: transparent;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+header nav ul li a:hover {
+  background-color: #080c0e;
+  color: #ffffff;
+}
+
+.navbar .hamburger {
+  display: flex;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 4px;
+  row-gap: 3px;
+}
+.navbar .hamburger span {
+  display: inline-block;
+  height: 2px;
+  background-color: #ffffffe3;
+}
+.navbar .hamburger span.line-1 {
+  width: 12px;
+}
+.navbar .hamburger span.line-2 {
+  width: 20px;
+}
+.navbar .hamburger span.line-3 {
+  width: 16px;
+}
+
+.navbar .hamburger:hover > span {
+  width: 20px !important;
+}
