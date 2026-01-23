@@ -2,6 +2,7 @@ import "./Header.css";
 import logo from "../../assets/logo.png";
 import MegaMenu from "./MegaMenu/MegaMenu";
 import { useRef } from "react";
+import { RiArrowDownSLine } from "react-icons/ri";
 
 export default function Header() {
   const megaMenuRef = useRef(null);
@@ -39,7 +40,8 @@ export default function Header() {
                   onMouseLeave={hideMegaMenu}
                   href="#"
                 >
-                  Services
+                  Services <span className="drop-down-icon">
+                  <RiArrowDownSLine /></span>
                 </a>
                 <MegaMenu ref={megaMenuRef} />
               </li>

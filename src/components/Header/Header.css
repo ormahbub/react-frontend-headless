@@ -39,6 +39,11 @@ header nav ul li a {
   font-weight: 500;
   transition: all 0.3s;
 }
+header nav ul li a .drop-down-icon {
+  position: relative;
+  top: 5px;
+  left: -2px;
+}
 header nav ul li a:hover {
   background-color: #080c0e;
   color: #ffffff;
