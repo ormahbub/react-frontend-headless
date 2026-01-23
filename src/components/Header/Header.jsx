@@ -1,7 +1,23 @@
 import "./Header.css";
 import logo from "../../assets/logo.png";
+import MegaMenu from "./MegaMenu/MegaMenu";
+import { useRef } from "react";
 
 export default function Header() {
+  const megaMenuRef = useRef(null);
+
+  const showMegaMenu = () => {
+    if (megaMenuRef.current) {
+      megaMenuRef.current.displayMegaMenu();
+    }
+  };
+
+  const hideMegaMenu = () => {
+    if (megaMenuRef.current) {
+      megaMenuRef.current.removeMegaMenu();
+    }
+  };
+
   return (
     <header id="header">
       <div className="container">
@@ -12,19 +28,35 @@ export default function Header() {
           <nav>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <a className="menu-item" href="#">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a
+                  className="menu-item"
+                  onMouseOver={showMegaMenu}
+                  onMouseLeave={hideMegaMenu}
+                  href="#"
+                >
+                  Services
+                </a>
+                <MegaMenu ref={megaMenuRef} />
               </li>
               <li>
-                <a href="#">News</a>
+                <a className="menu-item" href="#">
+                  News
+                </a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a className="menu-item" href="#">
+                  About
+                </a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a className="menu-item" href="#">
+                  Contact
+                </a>
               </li>
             </ul>
           </nav>

@@ -1,0 +1,17 @@
+.mega-menu {
+  width: 500px;
+  height: 300px;
+  background-color: #ffffff;
+  position: absolute;
+  padding: 40px;
+  border-radius: 40px;
+  top: calc(100% + 40px);
+  left: calc(50%);
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+}
+.mega-menu.active {
+  opacity: 1;
+  visibility: visible;
+}
