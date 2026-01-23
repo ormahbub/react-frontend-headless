@@ -39,6 +39,11 @@ header nav ul li a {
   font-weight: 500;
   transition: all 0.3s;
 }
+header nav ul li a:hover + .mega-menu,
+.mega-menu:hover {
+  opacity: 1;
+  visibility: visible;
+}
 header nav ul li a .drop-down-icon {
   position: relative;
   top: 5px;

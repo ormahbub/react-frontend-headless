@@ -1,24 +1,9 @@
 import "./Header.css";
 import logo from "../../assets/logo.png";
 import MegaMenu from "./MegaMenu/MegaMenu";
-import { useRef } from "react";
 import { RiArrowDownSLine } from "react-icons/ri";
 
 export default function Header() {
-  const megaMenuRef = useRef(null);
-
-  const showMegaMenu = () => {
-    if (megaMenuRef.current) {
-      megaMenuRef.current.displayMegaMenu();
-    }
-  };
-
-  const hideMegaMenu = () => {
-    if (megaMenuRef.current) {
-      megaMenuRef.current.removeMegaMenu();
-    }
-  };
-
   return (
     <header id="header">
       <div className="container">
@@ -34,16 +19,13 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a
-                  className="menu-item"
-                  onMouseOver={showMegaMenu}
-                  onMouseLeave={hideMegaMenu}
-                  href="#"
-                >
-                  Services <span className="drop-down-icon">
-                  <RiArrowDownSLine /></span>
+                <a className="menu-item" href="#">
+                  Services{" "}
+                  <span className="drop-down-icon">
+                    <RiArrowDownSLine />
+                  </span>
                 </a>
-                <MegaMenu ref={megaMenuRef} />
+                <MegaMenu />
               </li>
               <li>
                 <a className="menu-item" href="#">

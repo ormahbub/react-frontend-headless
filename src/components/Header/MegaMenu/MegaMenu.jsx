@@ -1,28 +1,12 @@
-import { forwardRef, useImperativeHandle, useRef } from "react";
 import "./MegaMenu.css";
 import ServicesMegaMenu from "./ServicesMegaMenu/ServicesMegaMenu";
 
-const MegaMenu = forwardRef((props, ref) => {
-  const menuRef = useRef(null);
-
-  useImperativeHandle(ref, () => ({
-    displayMegaMenu: () => {
-      if (menuRef.current) {
-        menuRef.current.classList.add("active");
-      }
-    },
-    removeMegaMenu: () => {
-      if (menuRef.current) {
-        menuRef.current.classList.remove("active");
-      }
-    },
-  }));
-
+const MegaMenu = () => {
   return (
-    <div ref={menuRef} className="mega-menu">
+    <div className="mega-menu">
       <ServicesMegaMenu />
     </div>
   );
-});
+};
 
 export default MegaMenu;
