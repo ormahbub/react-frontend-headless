@@ -1,5 +1,6 @@
 import { forwardRef, useImperativeHandle, useRef } from "react";
 import "./MegaMenu.css";
+import ServicesMegaMenu from "./ServicesMegaMenu/ServicesMegaMenu";
 
 const MegaMenu = forwardRef((props, ref) => {
   const menuRef = useRef(null);
@@ -19,7 +20,7 @@ const MegaMenu = forwardRef((props, ref) => {
 
   return (
     <div ref={menuRef} className="mega-menu">
-      MegaMenu
+      <ServicesMegaMenu />
     </div>
   );
 });
