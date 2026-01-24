@@ -25,7 +25,9 @@ export default function Header() {
                     <RiArrowDownSLine />
                   </span>
                 </a>
-                <MegaMenu />
+                <div className="megamenu-container">
+                  <MegaMenu />
+                </div>
               </li>
               <li>
                 <a className="menu-item" href="#">

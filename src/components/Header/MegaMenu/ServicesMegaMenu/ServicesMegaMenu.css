@@ -7,6 +7,15 @@
 .megamenu-content .megamenu-item {
   width: 50%;
   background-color: gray;
-  border-radius: 24px;
+  border-radius: 30px;
   padding: 20px;
+}
+.megamenu-item .megamenu-link {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+.megamenu-link h3 {
+  font-size: 18px;
+  color: #080c0e;
 }

@@ -1,13 +1,4 @@
-.mega-menu {
+.megamenu {
   width: 600px;
   height: 300px;
-  background-color: #ffffff;
-  position: absolute;
-  padding: 40px;
-  border-radius: 40px;
-  top: calc(100%);
-  left: calc(50%);
-  transform: translateX(-50%);
-  opacity: 0;
-  visibility: hidden;
 }

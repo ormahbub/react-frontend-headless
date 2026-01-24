@@ -39,10 +39,18 @@ header nav ul li a {
   font-weight: 500;
   transition: all 0.3s;
 }
-header nav ul li a:hover + .mega-menu,
-.mega-menu:hover {
-  opacity: 1;
-  visibility: visible;
+header nav ul li .megamenu-container {
+  background-color: #ffffff;
+  position: absolute;
+  padding: 15px;
+  border-radius: 40px;
+  top: calc(100%);
+  left: calc(50%);
+  transform: translateX(-50%);
+  display: none;
+}
+header nav ul li:hover .megamenu-container {
+  display: block;
 }
 header nav ul li a .drop-down-icon {
   position: relative;

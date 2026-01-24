@@ -3,7 +3,7 @@ import ServicesMegaMenu from "./ServicesMegaMenu/ServicesMegaMenu";
 
 const MegaMenu = () => {
   return (
-    <div className="mega-menu">
+    <div className="megamenu">
       <ServicesMegaMenu />
     </div>
   );
