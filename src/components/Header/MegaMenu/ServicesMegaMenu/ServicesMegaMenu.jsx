@@ -3,7 +3,7 @@ import "./ServicesMegaMenu.css";
 
 const ServicesMegaMenu = () => {
   return (
-    <div className="megamenu-content">
+    <div className="services-megamenu">
       <div className="megamenu-item">
         <a className="megamenu-link" href="#">
           <div className="icon">

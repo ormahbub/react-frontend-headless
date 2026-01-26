@@ -40,17 +40,22 @@ header nav ul li a {
   transition: all 0.3s;
 }
 header nav ul li .megamenu-container {
-  background-color: #ffffff;
+  background-color: transparent;
   position: absolute;
-  padding: 15px;
+  padding-top: 30px;
   border-radius: 40px;
-  top: calc(100%);
+  top: calc(100% + 10px);
   left: calc(50%);
-  transform: translateX(-50%);
-  display: none;
+  transform: translateX(-50%) translateY(30px);
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 header nav ul li:hover .megamenu-container {
-  display: block;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0) translateX(-50%);
 }
 header nav ul li a .drop-down-icon {
   position: relative;
