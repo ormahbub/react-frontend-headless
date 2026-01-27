@@ -2,30 +2,39 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  grid-area: 20px;
+  gap: 20px;
   background-color: #ffffff;
   border-radius: 32px;
   justify-content: space-between;
-  width: 600px;
-  height: 300px;
+  width: 750px;
   padding: 20px;
 }
 .services-megamenu .megamenu-item {
-  width: 50%;
+  width: calc(50% - 10px);
 }
 .megamenu-item .megamenu-link {
   display: flex;
   flex-direction: row;
   padding: 0;
-  background-color: #dddddd;
-  padding: 15px 15px;
-  border-radius: 24px;
+  padding: 25px;
+  border-radius: 20px;
+}
+.megamenu-item .megamenu-link:hover {
+  background-color: #f2f5f7;
+  color: #080c0e;
 }
 .megamenu-item .megamenu-link .icon {
   font-size: 40px;
   color: #080c0e;
+  padding-right: 10px;
 }
 .megamenu-link h3 {
   font-size: 18px;
   color: #080c0e;
+}
+.megamenu-link p {
+  font-size: 16px;
+  color: #515455;
+  font-weight: 400;
+  margin-top: 10px;
 }
