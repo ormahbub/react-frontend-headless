@@ -6,8 +6,20 @@ import { RxCross1 } from "react-icons/rx";
 
 const OffCanvas = () => {
   return (
-    <div id="offCanvas" className="ofcanvas-container">
-      <div className="ofcanvas">
+    <div
+      id="offCanvas"
+      className="ofcanvas-container"
+      onClick={() => {
+        document.getElementById("offCanvas").classList.remove("active");
+        document.querySelector(".hamburger").classList.remove("active");
+      }}
+    >
+      <div
+        onClick={(e) => {
+          e.stopPropagation();
+        }}
+        className="ofcanvas"
+      >
         <div className="offcanvas-btn">
           <button
             onClick={() => {
