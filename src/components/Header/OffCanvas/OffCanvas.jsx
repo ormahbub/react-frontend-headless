@@ -12,6 +12,7 @@ const OffCanvas = () => {
           <button
             onClick={() => {
               document.getElementById("offCanvas").classList.remove("active");
+              document.querySelector(".hamburger").classList.remove("active");
             }}
             className="close-btn"
           >

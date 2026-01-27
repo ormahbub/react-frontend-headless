@@ -86,8 +86,19 @@ header nav ul li a:hover {
 .navbar .hamburger span.line-1 {
   width: 12px;
 }
+.navbar .hamburger.active span.line-1 {
+  width: 20px;
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.navbar .hamburger.active span.line-2 {
+  opacity: 0;
+}
 .navbar .hamburger span.line-2 {
   width: 20px;
+}
+.navbar .hamburger.active span.line-3 {
+  width: 20px;
+  transform: rotate(-45deg) translate(5px, -5px);
 }
 .navbar .hamburger span.line-3 {
   width: 16px;

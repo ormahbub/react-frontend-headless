@@ -50,6 +50,7 @@ export default function Header() {
           <button
             onClick={() => {
               document.getElementById("offCanvas").classList.toggle("active");
+              document.querySelector(".hamburger").classList.add("active");
             }}
             className="hamburger"
           >
