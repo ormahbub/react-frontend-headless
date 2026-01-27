@@ -2,6 +2,7 @@ import "./Header.css";
 import logo from "../../assets/logo.png";
 import MegaMenu from "./MegaMenu/MegaMenu";
 import { RiArrowDownSLine } from "react-icons/ri";
+import OffCanvas from "./OffCanvas/OffCanvas";
 
 export default function Header() {
   return (
@@ -46,13 +47,19 @@ export default function Header() {
               </li>
             </ul>
           </nav>
-          <button className="hamburger">
+          <button
+            onClick={() => {
+              document.getElementById("offCanvas").classList.toggle("active");
+            }}
+            className="hamburger"
+          >
             <span className="line-1"></span>
             <span className="line-2"></span>
             <span className="line-3"></span>
           </button>
         </div>
       </div>
+      <OffCanvas />
     </header>
   );
 }

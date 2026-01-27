@@ -1,0 +1,122 @@
+.ofcanvas-container {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  right: -650px;
+  opacity: 0;
+  visibility: hidden;
+}
+.ofcanvas-container.active {
+  right: 0;
+  opacity: 1;
+  visibility: visible;
+}
+.ofcanvas {
+  position: relative;
+  width: 600px;
+  background-color: #ffffff;
+  height: 100%;
+  padding: 80px 40px 40px 40px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+.ofcanvas .close-btn {
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  transition: all 0.2s;
+  background-color: transparent;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  border: none;
+}
+.ofcanvas .close-btn:hover {
+  transform: rotate(90deg);
+  color: #5a969e;
+}
+.ofcanvas .logo img {
+  width: 200px;
+}
+.ofcanvas .ofcanvas-menu {
+  margin-top: 50px;
+}
+.ofcanvas .ofcanvas-menu ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+}
+.ofcanvas .ofcanvas-menu ul li a {
+  font-size: 20px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: #515455;
+}
+.ofcanvas .ofcanvas-menu ul li a:hover {
+  color: #080c0e;
+}
+
+.ofcanvas .ofcanvas-card {
+  width: 100%;
+  background-color: #cbe1e4;
+  padding: 30px;
+  border-radius: 28px;
+  margin-top: auto;
+}
+.ofcanvas-card .icon {
+  background-color: #000000;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  border-radius: 100%;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 18px;
+}
+.ofcanvas-card .text {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.ofcanvas-card .text h3 {
+  font-size: 22px;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.ofcanvas-card .text p {
+  font-size: 17px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  color: #515455;
+}
+.ofcanvas-card a {
+  font-family: "Funnel Display", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 18px 30px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: 600;
+}
+.ofcanvas-card a .btn-icon {
+  font-size: 20px;
+  position: relative;
+  top: 5px;
+  left: 2px;
+}
