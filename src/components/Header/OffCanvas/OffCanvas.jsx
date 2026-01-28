@@ -8,23 +8,25 @@ const OffCanvas = () => {
   return (
     <div
       id="offCanvas"
-      className="ofcanvas-container"
+      className="offcanvas-container"
       onClick={() => {
         document.getElementById("offCanvas").classList.remove("active");
         document.querySelector(".hamburger").classList.remove("active");
+        document.body.classList.remove("no-scroll");
       }}
     >
       <div
         onClick={(e) => {
           e.stopPropagation();
         }}
-        className="ofcanvas"
+        className="offcanvas"
       >
         <div className="offcanvas-btn">
           <button
             onClick={() => {
               document.getElementById("offCanvas").classList.remove("active");
               document.querySelector(".hamburger").classList.remove("active");
+              document.body.classList.remove("no-scroll");
             }}
             className="close-btn"
           >
@@ -34,7 +36,7 @@ const OffCanvas = () => {
         <div className="logo">
           <img src={logoForLight} alt="Logo" />
         </div>
-        <div className="ofcanvas-menu">
+        <div className="offcanvas-menu">
           <ul>
             <li>
               <a href="#">Home</a>
@@ -53,7 +55,7 @@ const OffCanvas = () => {
             </li>
           </ul>
         </div>
-        <div className="ofcanvas-card">
+        <div className="offcanvas-card">
           <div className="icon">
             <BsGraphUpArrow />
           </div>

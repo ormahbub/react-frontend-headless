@@ -51,6 +51,7 @@ export default function Header() {
             onClick={() => {
               document.getElementById("offCanvas").classList.toggle("active");
               document.querySelector(".hamburger").classList.add("active");
+              document.body.classList.toggle("no-scroll");
             }}
             className="hamburger"
           >
