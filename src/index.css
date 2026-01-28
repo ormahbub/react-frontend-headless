@@ -13,6 +13,9 @@
   box-sizing: border-box;
   transition: all 0.3s;
 }
+html {
+  scrollbar-gutter: stable;
+}
 body {
   background-color: #080c0e;
 }

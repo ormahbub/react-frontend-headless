@@ -1,5 +1,5 @@
 .offcanvas-container {
-  width: 100%;
+  width: 300%;
   height: 100vh;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
@@ -15,8 +15,7 @@
 }
 body.no-scroll {
   overflow: hidden;
-  height: 100vh;
-  padding-right: 20px;
+  height: 100%;
 }
 .offcanvas-container.active {
   right: 0;
