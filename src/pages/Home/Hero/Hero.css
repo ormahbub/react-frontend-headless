@@ -1,0 +1,83 @@
+.hero-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: calc(100vh - 105px);
+  padding: 70px 0;
+}
+.hero-section .left-content {
+  width: 53%;
+}
+.hero-section .right-content {
+  width: 43%;
+}
+.heading {
+  color: #ffffff;
+  font-family: "Funnel Display", sans-serif;
+  line-height: 74px;
+  font-weight: 800;
+  font-size: 32px;
+}
+.text {
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 25px;
+}
+.btn a {
+  color: #343434;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 15px 40px;
+  font-size: 16px;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  border-radius: 100px;
+  display: inline-block;
+  margin-top: 50px;
+}
+.btn a .btn-icon {
+  font-size: 18px;
+  position: relative;
+  top: 4px;
+}
+
+.hero-section .right-content {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+}
+.hero-section .small-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 40%;
+}
+.hero-section .large-cards {
+  width: 60%;
+}
+.hero-section .card {
+  border-radius: 24px;
+}
+.small-cards .card-1 {
+  width: 100%;
+  height: 200px;
+  background-color: #cbe1e4;
+}
+.small-cards .card-2 {
+  background: url("../../../assets/image-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+.large-cards .card-3 {
+  width: 100%;
+  height: 520px;
+  background: url("../../../assets/image-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
