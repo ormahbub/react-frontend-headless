@@ -1,15 +1,35 @@
 import "./Header.css";
 import logo from "../../assets/logo.png";
+import logoLight from "../../assets/logoforlight.png";
 import MegaMenu from "./MegaMenu/MegaMenu";
 import { RiArrowDownSLine } from "react-icons/ri";
 import OffCanvas from "./OffCanvas/OffCanvas";
+import { useEffect, useState } from "react";
 
 export default function Header() {
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header id="header">
+    <header id="header" className={isSticky ? "sticky" : ""}>
       <div className="container">
         <div className="logo">
-          <img src={logo} alt="InvestBooster" />
+          <img src={!isSticky ? logo : logoLight} alt="InvestBooster" />
         </div>
         <div className="navbar">
           <nav>

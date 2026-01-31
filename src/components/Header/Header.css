@@ -1,3 +1,9 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 header .container {
   background-color: #121b1f;
   display: flex;
@@ -6,6 +12,9 @@ header .container {
   padding: 18px 30px;
   border-radius: 100px;
   margin-top: 30px;
+}
+header.sticky .container {
+  background-color: #ffffff;
 }
 header .logo img {
   width: 220px;
@@ -38,6 +47,9 @@ header nav ul li a {
   font-family: "Segoe UI", sans-serif;
   font-weight: 500;
   transition: all 0.3s;
+}
+header.sticky nav ul li a {
+  color: #080c0e;
 }
 header nav ul li .megamenu-container {
   background-color: transparent;
@@ -82,6 +94,9 @@ header nav ul li a:hover {
   display: inline-block;
   height: 2px;
   background-color: #b8bbbc;
+}
+header.sticky .navbar .hamburger span {
+  background-color: #080c0e;
 }
 .navbar .hamburger span.line-1 {
   width: 12px;
