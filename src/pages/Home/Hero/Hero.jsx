@@ -1,5 +1,6 @@
 import { GoArrowUpRight } from "react-icons/go";
 import "./Hero.css";
+import { HiOutlineArrowTrendingUp } from "react-icons/hi2";
 
 const Hero = () => {
   return (
@@ -26,7 +27,16 @@ const Hero = () => {
         </div>
         <div className="right-content">
           <div className="small-cards">
-            <div className="card card-1"></div>
+            <div className="card card-1">
+              <p className="text">Average investment</p>
+              <h3 className="heading">$100K</h3>
+              <div className="icon-info">
+                <span className="icon">
+                  <HiOutlineArrowTrendingUp />
+                </span>
+                <h3>25%</h3>
+              </div>
+            </div>
             <div className="card card-2"></div>
           </div>
           <div className="large-cards">

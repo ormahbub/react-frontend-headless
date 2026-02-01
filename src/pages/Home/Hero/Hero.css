@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: calc(100vh - 105px);
+  height: 100vh;
   padding: 70px 0;
 }
 .hero-section .left-content {
@@ -64,6 +64,7 @@
 .hero-section .card {
   border-radius: 24px;
   transition: all 0.3s;
+  padding: 25px;
 }
 .small-cards .card-1 {
   width: 100%;
