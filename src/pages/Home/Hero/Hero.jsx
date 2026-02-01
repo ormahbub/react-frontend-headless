@@ -1,6 +1,8 @@
 import { GoArrowUpRight } from "react-icons/go";
 import "./Hero.css";
 import { HiOutlineArrowTrendingUp } from "react-icons/hi2";
+import { IoPlay } from "react-icons/io5";
+import { BsCheckLg } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -40,7 +42,25 @@ const Hero = () => {
             <div className="card card-2"></div>
           </div>
           <div className="large-cards">
-            <div className="card card-3"></div>
+            <div className="card card-3">
+              <div className="card-top">
+                <p className="text">How it works</p>
+                <span className="icon">
+                  <IoPlay />
+                </span>
+              </div>
+              <div className="card-bottom">
+                <div className="card-btn">
+                  <span className="icon">
+                    <BsCheckLg />
+                  </span>
+                  <div className="text">
+                    <p>Invoice Paid</p>
+                    <p>$25,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

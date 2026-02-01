@@ -90,6 +90,9 @@
   background-size: 116%;
   background-repeat: no-repeat;
   background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .small-cards .card-2:hover {
   background-size: 115%;
@@ -134,4 +137,62 @@
   font-size: 20px;
   color: #ffffff;
   font-family: "Funnel Display", sans-serif;
+}
+
+.card-3 .card-top {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  column-gap: 15px;
+}
+.card-3 .card-top .text {
+  font-size: 17px;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 28px;
+}
+.card-3 .card-top .icon {
+  background-color: #ffffff;
+  font-size: 24px;
+  color: #080c0e;
+  height: 50px;
+  width: 50px;
+  line-height: 42px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: end;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.card-3 .card-bottom .card-btn {
+  background-color: gray;
+  padding: 12px 30px 12px 12px;
+  border-radius: 50px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 12px;
+  flex-direction: row;
+}
+.card-3 .card-bottom .icon {
+  color: #080c0e;
+  font-size: 24px;
+  background-color: #ffffff;
+  height: 46px;
+  width: 46px;
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.card-3 .card-bottom p {
+  font-size: 15px;
+  line-height: 15px;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
 }
