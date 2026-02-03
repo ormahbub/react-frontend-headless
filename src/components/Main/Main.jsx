@@ -1,10 +1,12 @@
-import Hero from "../../pages/Home/Hero/Hero";
+import Home from "../../pages/Home/Home";
 import "./Main.css";
 
 const Main = () => {
-  return <main>
-    <Hero />
-  </main>;
+  return (
+    <main>
+      <Home />
+    </main>
+  );
 };
 
 export default Main;
