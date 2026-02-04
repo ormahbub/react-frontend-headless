@@ -5,18 +5,19 @@
   border-radius: 4px;
   color: #ffffff;
   text-decoration: none;
+  text-align: left;
 }
 .blog-post img {
   width: 100%;
   border-radius: 4px;
 }
-.blog-post h3 {
+.blog-post h3.blog-title {
   font-family: "Funnel Display", sans-serif;
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0;
 }
-.blog-post p {
+.blog-post p.blog-details {
   font-family: "Segoe UI", sans-serif;
   font-weight: 400;
   font-size: 16px;

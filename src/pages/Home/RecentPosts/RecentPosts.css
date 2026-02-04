@@ -1,7 +1,26 @@
+.recent-posts {
+  text-align: center;
+}
+.section-content {
+  margin-top: 50px;
+}
 .blog-posts {
   display: flex;
   justify-content: space-between;
   align-items: start;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.recent-posts h3 {
+  font-size: 44px;
+  color: #ffffff;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.recent-posts p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Segoe", sans-serif;
+  color: #ffffff;
 }
