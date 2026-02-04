@@ -14,6 +14,7 @@ const PostLoop = () => {
         nam corporis inventore libero, nostrum fugiat asperiores blanditiis
         incidunt corrupti!
       </p>
+      <a href="#" className="btn">Read</a>
     </a>
   );
 };

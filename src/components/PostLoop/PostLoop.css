@@ -6,6 +6,7 @@
   color: #ffffff;
   text-decoration: none;
   text-align: left;
+  position: relative;
 }
 .blog-post img {
   width: 100%;
@@ -21,4 +22,20 @@
   font-family: "Segoe UI", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+.blog-post a.btn {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2872fa;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 100%;
+  position: absolute;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  bottom: 20px;
+  box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.3);
+  right: 20px;
 }
