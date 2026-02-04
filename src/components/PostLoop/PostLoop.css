@@ -1,0 +1,19 @@
+.blog-post {
+  width: 31%;
+  background-color: rgba(240, 248, 255, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.blog-post h3 {
+  font-family: "Funnel Display", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.blog-post p {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}

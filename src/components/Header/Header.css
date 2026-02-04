@@ -5,6 +5,7 @@ header {
   width: 100%;
 }
 header .container {
+  width: 1380px;
   background-color: #121b1f;
   display: flex;
   justify-content: space-between;
