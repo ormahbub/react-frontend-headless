@@ -6,11 +6,15 @@
   color: #ffffff;
   text-decoration: none;
 }
+.blog-post img {
+  width: 100%;
+  border-radius: 4px;
+}
 .blog-post h3 {
   font-family: "Funnel Display", sans-serif;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 .blog-post p {
   font-family: "Segoe UI", sans-serif;
