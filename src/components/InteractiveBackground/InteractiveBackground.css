@@ -1,0 +1,14 @@
+.bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  /* Dark background color */
+  background-color: #0b0e14;
+  /* Ensures the mouse interaction still works, 
+     but doesn't block clicks to UI elements below */
+  pointer-events: none;
+  display: block;
+}

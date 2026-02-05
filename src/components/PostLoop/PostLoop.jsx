@@ -11,10 +11,11 @@ const PostLoop = () => {
       <p className="blog-details">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. A cum totam
         consectetur modi quas provident ducimus quis itaque perspiciatis harum
-        nam corporis inventore libero, nostrum fugiat asperiores blanditiis
-        incidunt corrupti!
+        nam corporis inventore libero!
       </p>
-      <a href="#" className="btn">Read</a>
+      <a href="#" className="btn">
+        Read
+      </a>
     </a>
   );
 };
