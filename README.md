@@ -28,17 +28,25 @@ Follow these steps to get the project running locally:
 git clone https://github.com/ormahbub/react-frontend-headless.git
 ```
 
+### 2. Change the directory
+
 ```bash
 cd react-headless-frontend
 ```
+
+### 3. Install all the packages
 
 ```bash
 npm install
 ```
 
+### 4. Run the project
+
 ```bash
 npm run dev
 ```
+
+### 5. Build the project
 
 ```bash
 npm run build
