@@ -7,13 +7,24 @@ const Footer = () => {
         <div className="footer-left">
           <ul className="social-list">
             <li>
-              <a href="#">Facebook</a>
+              <a target="_blank" href="https://www.facebook.com/mahbubat/">
+                Facebook
+              </a>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <a target="_blank" href="https://linkedin.com/in/ormahbub/">
+                LinkedIn
+              </a>
             </li>
             <li>
-              <a href="#">YouTube</a>
+              <a target="_blank" href="https://www.github.com/ormahbub/">
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="http://mahbub.kesug.com/">
+                Website
+              </a>
             </li>
           </ul>
         </div>
