@@ -1,5 +1,6 @@
 import "./TeamSection.css";
 import chartImage from "../../../assets/chart-image.jpg";
+import Button from "../../../components/Elements/Button/Button";
 
 const TeamSection = () => {
   return (
@@ -16,6 +17,7 @@ const TeamSection = () => {
             Condimentum netus feugiat risus porttitor viverra, suscipit sociosqu
             bibendum rutrum placerat cras aliquam.
           </p>
+          <Button />
         </div>
         <div className="right-content">
           <div className="image-box">

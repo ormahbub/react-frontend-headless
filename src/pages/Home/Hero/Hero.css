@@ -23,30 +23,9 @@
   font-family: "Segoe UI", sans-serif;
   font-weight: 400;
   font-size: 20px;
+  margin-bottom: 50px;
   margin-top: 25px;
 }
-.hero-section .btn a {
-  color: #343434;
-  background-color: #ffffff;
-  text-decoration: none;
-  padding: 15px 40px;
-  font-size: 16px;
-  font-family: "Segoe UI", sans-serif;
-  font-weight: 600;
-  border-radius: 100px;
-  display: inline-block;
-  margin-top: 50px;
-}
-.hero-section .btn a:hover {
-  background-color: #2872fa;
-  color: #ffffff;
-}
-.btn a .btn-icon {
-  font-size: 18px;
-  position: relative;
-  top: 4px;
-}
-
 .hero-section .right-content {
   display: flex;
   gap: 25px;

@@ -1,8 +1,9 @@
-import { GoArrowUpRight } from "react-icons/go";
+
 import "./Hero.css";
 import { HiOutlineArrowTrendingUp } from "react-icons/hi2";
 import { IoPlay } from "react-icons/io5";
 import { BsCheckLg } from "react-icons/bs";
+import Button from "../../../components/Elements/Button/Button";
 
 const Hero = () => {
   return (
@@ -18,14 +19,7 @@ const Hero = () => {
               discovery, we are your partners.
             </p>
           </div>
-          <div className="btn">
-            <a href="#">
-              Get Started{" "}
-              <span className="btn-icon">
-                <GoArrowUpRight />
-              </span>
-            </a>
-          </div>
+          <Button />
         </div>
         <div className="right-content">
           <div className="small-cards">
