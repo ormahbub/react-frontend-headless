@@ -1,0 +1,29 @@
+.team-section {
+  background-color: #ffffff22;
+  padding: 50px 0;
+}
+.team-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-section .left-content {
+  width: 60%;
+}
+.team-section .right-content {
+  width: 40%;
+}
+.team-section .right-content {
+  padding: 30px;
+}
+.team-section .right-content .image-box {
+  background: url("../../../assets/chart-image-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 28px;
+  padding: 50px;
+}
+.team-section .right-content img {
+  max-width: 100%;
+}
