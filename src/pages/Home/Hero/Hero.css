@@ -154,8 +154,13 @@
   align-content: end;
   border-radius: 100%;
   display: inline-block;
+  cursor: pointer;
 }
-
+.card-3 .card-top .icon:hover {
+  background-color: #2872fa;
+  color: #ffffff;
+  transform: scale(1.1);
+}
 .card-3 .card-bottom .card-btn {
   background-color: gray;
   padding: 12px 60px 12px 12px;
