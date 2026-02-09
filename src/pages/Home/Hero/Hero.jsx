@@ -1,9 +1,9 @@
-
 import "./Hero.css";
 import { HiOutlineArrowTrendingUp } from "react-icons/hi2";
 import { IoPlay } from "react-icons/io5";
 import { BsCheckLg } from "react-icons/bs";
 import Button from "../../../components/Elements/Button/Button";
+import UserCount from "../../../components/Elements/UserCount/UserCount";
 
 const Hero = () => {
   return (
@@ -19,7 +19,10 @@ const Hero = () => {
               discovery, we are your partners.
             </p>
           </div>
-          <Button />
+          <div className="button-area">
+            <Button />
+            <UserCount />
+          </div>
         </div>
         <div className="right-content">
           <div className="small-cards">
