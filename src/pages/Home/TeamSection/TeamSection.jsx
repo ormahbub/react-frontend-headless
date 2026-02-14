@@ -1,6 +1,7 @@
 import "./TeamSection.css";
 import chartImage from "../../../assets/chart-image.jpg";
 import Button from "../../../components/Elements/Button/Button";
+import ClientsLogo from "../../../components/Elements/ClientsLogo/ClientsLogo";
 
 const TeamSection = () => {
   return (
@@ -25,6 +26,7 @@ const TeamSection = () => {
           </div>
         </div>
       </div>
+      <ClientsLogo />
     </section>
   );
 };
