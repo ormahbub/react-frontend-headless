@@ -1,0 +1,12 @@
+.level-cards {
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+.level-cards .section-title {
+  color: #000000;
+  font-size: 50px;
+  line-height: 65px;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
